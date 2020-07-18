@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS assignment 43-49</title>
+</head>
+<body>
+	<p>you should know more about this!<a href="#" onclick="show();">Click Me!</a></p>
+	<h6>Click on image</h6>
+	<img src="images/1.jpg" width="30%" height="300vh" onclick="creating();">
+	<img src="images/2.jpg" width="30%" height="300vh" onclick="creating();">
+	<img src="images/3.jpg" width="30%" height="300vh" onclick="creating();">
+	<img src="images/10.jpg" width="30%" height="300vh" onmouseover="src='images/11.jpg'" onmouseout="src='images/10.jpg'">
+	<button onclick="counterAdd();">Increase</button>
+	<button onclick="counterDown();">Decrease</button>
+	<table id="table" border="1px">
+		<tr id="heading">
+			<td>Index</td>
+			<td>Name</td>
+			<td>Class</td>
+			<td>Functionality</td>
+		</tr>
+		<tr id="firstRow">
+			<td>0</td>
+			<td>John</td>
+			<td>10</td>
+			<td><button onclick="clear1();">Delete</button></td>
+		</tr>
+		<tr id="secondRow">
+			<td>1</td>
+			<td>Doe</td>
+			<td>9</td>
+			<td><button onclick="clear2();">Delete</button></td>
+		</tr>
+		<tr id="thirdRow">
+			<td>2</td>
+			<td>Mark</td>
+			<td>10</td>
+			<td><button onclick="clear3();">Delete</button></td>
+		</tr>
+	</table>
+</body>
+<script src="app.js"></script>
+<script src="app1.js"></script>
+<script src="app2.js"></script>
+<script src="app3.js"></script>
+<script src="app4.js"></script>
+</html>
